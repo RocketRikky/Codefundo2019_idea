@@ -8,7 +8,9 @@ The Whatsapp API ensures that this "form" is sent to every user in the loop.
 
 To verify one's age, one can upload a document such as the Driving License or AADHAR card. The verification process can be carried out by a few people who are nothing but nodes in the network who will be referred to as "miners".
 
-After submitting this "form", the user generates a unique hash which is encrypted by the user's private key. When the miners in the network receive such a notification of a transaction, they decrypt the user's application for a voter ID card. Then, this information is matched acording to the database records of people and if matched, this transaction carries forward and the user receives an instant, automaticallly generated e-voter ID card. This is exactly how Digital Signatures work.
+After submitting this "form", the user generates a unique hash which is encrypted by the user's private key. When the miners in the network receive such a notification of a transaction, they decrypt the user's application using the user's private key for obtaining his/her voter ID card. This is exactly how Digital Signatures work.
+
+Then, this information is matched acording to the database records of people and if matched, this transaction carries forward and the user receives an instant, automaticallly generated e-voter ID card. 
 
 This card is sent as a PDF file to the user in a Whatsapp message using the Whatsapp API.
 
